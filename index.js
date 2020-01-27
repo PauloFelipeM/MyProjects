@@ -25,11 +25,7 @@ function rule(req, res, next){
   next();
 }
 
-const projects = [
-  {id: "1", title: "Project 01", tasks: []},
-  {id: "2", title: "Project 02", tasks: []},
-  {id: "3", title: "Project 03", tasks: []},
-];
+const projects = [];
 
 server.get('/projects', (req, res) => {
   return res.json(projects);
@@ -41,7 +37,7 @@ server.get('/projects/:id', checkProjectExist, (req, res) => {
   return res.json(project);
 });
 
-server.post('/projects', checkProjectExist, rule, (req, res) => {
+server.post('/projects', rule, (req, res) => {
   const { id } = req.body;
   const { title } = req.body;
   projects.push({id, title, tasks: []});
