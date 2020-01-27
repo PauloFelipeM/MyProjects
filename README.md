@@ -77,7 +77,7 @@ URL EXEMPLE: http://myapi.com/projects/{project_id}/tasks
 Body request: title
 
 
-## :memo: Licença
+## :memo: License
 
 Esse projeto está sob a licença MIT.
 
