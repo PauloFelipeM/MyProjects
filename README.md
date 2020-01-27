@@ -6,6 +6,8 @@ API to management projects and our tasks
 
 Project from the first challenge of rocketseat
 
+GoStack10 - RocketSeat
+
 ![](header.png)
 
 ## Technologies
