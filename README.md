@@ -26,7 +26,7 @@ cd /myprojects/ -> "npm install" or "yarn install"
 
 Inside folder of the project run: "yarn dev" or "npm run dev"
 
-## 🚩 Routes do access
+## 🚩 Routes
 
 
 ### Get all projects
