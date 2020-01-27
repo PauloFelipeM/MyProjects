@@ -79,6 +79,6 @@ Body request: title
 
 ## :memo: License
 
-Esse projeto está sob a licença MIT.
+This project is under the MIT license.
 
 Created by [Paulo Felipe Martins](https://www.linkedin.com/in/paulo-felipe-martins-3940b011a/)
