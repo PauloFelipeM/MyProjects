@@ -10,6 +10,7 @@ Project from the first challenge of rocketseat
 
 ## Technologies
 Node.js
+
 ExpressJS
 
 ## Required
@@ -18,40 +19,63 @@ ExpressJS
 ## Install
 
 git clone https://github.com/PauloFelipeM/MyProjects.git
-cd /myprojects/ -> npm install
+
+cd /myprojects/ -> "npm install" or "yarn install"
 
 ## Usage
 
 Inside folder of the project run: "yarn dev" or "npm run dev"
 
-## Routes do access
+## 🚩 Routes do access
+
 
 ### Get all projects
+
 Method: GET
+
 URL EXEMPLE: http://myapi.com/projects
+
 
 ### Get one project
+
 Method: GET
+
 URL EXEMPLE: http://myapi.com/projects/{project_id}
+
 
 ### Create project
+
 Method: POST
+
 URL EXEMPLE: http://myapi.com/projects
+
 Body request: id, title
 
+
 ### Update project
+
 Method: DELETE
+
 URL EXEMPLE: http://myapi.com/projects/{project_id}
+
 Body request: title
+
 
 ### Delete project
+
 Method: DELETE
+
 URL EXEMPLE: http://myapi.com/projects/{project_id}
 
+
 ### New task
+
 Method: POST
+
 URL EXEMPLE: http://myapi.com/projects/{project_id}/tasks
+
 Body request: title
+
 
 ## :memo: Licença
 
