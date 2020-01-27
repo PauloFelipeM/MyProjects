@@ -26,29 +26,29 @@ Inside folder of the project run: "yarn dev" or "npm run dev"
 
 ## Routes do access
 
-# Get all projects
+### Get all projects
 Method: GET
 URL EXEMPLE: http://myapi.com/projects
 
-# Get one project
+### Get one project
 Method: GET
 URL EXEMPLE: http://myapi.com/projects/{project_id}
 
-# Create project
+### Create project
 Method: POST
 URL EXEMPLE: http://myapi.com/projects
 Body request: id, title
 
-# Update project
+### Update project
 Method: DELETE
 URL EXEMPLE: http://myapi.com/projects/{project_id}
 Body request: title
 
-# Delete project
+### Delete project
 Method: DELETE
 URL EXEMPLE: http://myapi.com/projects/{project_id}
 
-# New task
+### New task
 Method: POST
 URL EXEMPLE: http://myapi.com/projects/{project_id}/tasks
 Body request: title
