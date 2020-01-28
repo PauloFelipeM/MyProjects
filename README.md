@@ -1,4 +1,10 @@
-# My Projects API - GoStack10
+<p align="center">
+    <img alt="GoStack" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" width="200px" />
+</p>
+
+<h1 align="center">
+  # My Projects API - GoStack10 - Desafio 01
+</h1>
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
